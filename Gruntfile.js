@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     copy: {
       dev: {
         files: [
-          {expand: true, src: "lang/", dest: DEV_PATH},
+          {expand: true, src: "lang/*", dest: DEV_PATH},
           {expand: true, src: "anoxis-engine.css", dest: DEV_PATH},
           {expand: true, src: "system.json",       dest: DEV_PATH},
           {expand: true, src: "template.json",     dest: DEV_PATH},
