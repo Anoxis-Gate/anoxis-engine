@@ -1,5 +1,7 @@
 /** @module anoxis-engine */
 
+import { anoxis-engine } from "./module/config.js";
+
 /**
  * Loads all registered Handlebars partials.
  * @async
@@ -20,6 +22,8 @@ function registerSystemSettings() {}
  */
 Hooks.once("init", function() {
   console.log("anoxis-engine | Initializing the Anoxis-Engine System");
+
+  CONFIG.anoxis-engine = anoxis-engine;
 
   preloadHandlebarsTemplates();
 
