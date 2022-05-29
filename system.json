@@ -1,0 +1,36 @@
+{ "name": "anoxis-engine"
+, "title": "Anoxis Engine"
+, "description": "The official implementation of the Anoxis Engine system for Foundry Virtual Tabletop."
+, "version": "0.1.0-alpha"
+, "authors":
+    [ { "name": "Infalle"
+      , "url": "https://github.com/Infalle"
+      }
+    , { "name": "Tyler Baum"
+      , "discord": "∀ugmenTab#5063"
+      , "url": "https://github.com/AugmenTab"
+      }
+    ]
+, "esmodules": [ "anoxis-engine.js" ]
+, "styles": [ "anoxis-engine.css" ]
+, "packs": []
+, "languages":
+    [ { "lang": "en"
+      , "name": "English"
+      , "path": "lang/en.json"
+      }
+    ]
+, "initiataive": ""
+, "gridDistance": 0
+, "gridUnits": ""
+, "primaryTokenAttribute": ""
+, "secondaryTokenAttribute": null
+, "minimumCoreVersion": "9.269"
+, "compatibleCoreVersion": "9.269"
+, "url": "https://github.com/Anoxis-Gate/anoxis-engine"
+, "manifest": "https://raw.githubusercontent.com/Anoxis-Gate/anoxis-engine/main/system.json"
+, "download": "https://github.com/Anoxis-Gate/anoxis-engine/releases/latest/download/anoxis-engine.zip"
+, "license": "LICENSE"
+, "readme": "README.md"
+, "changelog": "https://github.com/Anoxis-Gate/anoxis-engine/blob/main/CHANGELOG.md"
+}
