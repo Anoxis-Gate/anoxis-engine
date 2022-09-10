@@ -25,8 +25,11 @@
 , "gridUnits": ""
 , "primaryTokenAttribute": ""
 , "secondaryTokenAttribute": null
-, "minimumCoreVersion": "9.269"
-, "compatibleCoreVersion": "9.269"
+, "compatibility":
+    { "minimum": 10
+    , "verified": 10
+    , "maximum": 10
+    }
 , "url": "https://github.com/Anoxis-Gate/anoxis-engine"
 , "manifest": "https://raw.githubusercontent.com/Anoxis-Gate/anoxis-engine/main/system.json"
 , "download": "https://github.com/Anoxis-Gate/anoxis-engine/releases/latest/download/anoxis-engine.zip"
